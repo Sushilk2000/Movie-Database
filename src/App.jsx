@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header/header";
 import Main from "./Components/main/main";
 import MovieDetails from "./Components/MovieDetails/posterData";
@@ -6,11 +7,10 @@ import CastDetails from "./Components/MovieDetails/Castdetails";
 import FullCast from "./Components/MovieDetails/fullCast";
 import Footer from "./Components/Footer/Footer";
 import SearchResults from "./Components/Main_Search/searchResults";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PersonData from "./Components/MovieDetails/PersonDetails";
-import PopularPeople from "./Components/Header/popular_people";
-import PopularShows from "./Components/Header/popular_shows";
-import PopularMovies from "./Components/Header/popular_movies";
+import PopularPeople from "./Components/PopularPeople/popular_people";
+import PopularShows from "./Components/Popular Shows/popular_shows";
+import PopularMovies from "./Components/Popular Movies/popular_movies";
 function App() {
   return (
     <>

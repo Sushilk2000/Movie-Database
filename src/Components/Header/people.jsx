@@ -1,6 +1,4 @@
-import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
-import PopularPeople from "./popular_people";
 import { Link } from "react-router-dom";
 const items = [
   {
